@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="userinfo">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        <button class="button" size="mini" type="primary" bindtap="getInfo"> 第{{round}}轮信息 </button>
+        <button class="button" size="mini" type="default" bindtap="reset"> 重来 </button>
+    </view>
+    <view class="info">
+        <rich-text nodes="{{details}}" class="details"></rich-text>
+    </view>
+</view>

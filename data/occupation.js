@@ -1,0 +1,37 @@
+module.exports = {
+    get: function() {
+        return [{ "id": 1, "name": "\u519c\u6c11", "details": "\u4ece\u4e8b\u519c\u4e1a\u751f\u4ea7\uff0c\u4e86\u89e3\u519c\u4f5c\u7269\u751f\u957f", "effect_ratio": 91 },
+            { "id": 2, "name": "\u5efa\u7b51\u5e08", "details": "\u4ece\u4e8b\u5efa\u7b51\u5de5\u7a0b\u8bbe\u8ba1\uff0c\u53ef\u5efa\u7acb\u623f\u5c4b", "effect_ratio": 80 },
+            { "id": 3, "name": "\u9aa8\u79d1\u533b\u751f", "details": "\u9aa8\u79d1\u4e3b\u6cbb\u533b\u751f", "effect_ratio": 75 },
+            { "id": 4, "name": "\u5bf9\u51b2\u57fa\u91d1\u7ecf\u7406", "details": "\u4e13\u4e1a\u6295\u8d44\u4eba\uff0c\u6536\u5165\u975e\u5e38\u9ad8", "effect_ratio": 10 },
+            { "id": 5, "name": "\u4e2d\u5b66\u6559\u5e08", "details": "\u513f\u7ae5\u53ca\u9752\u5c11\u5e74\u6559\u80b2\u4e13\u5bb6", "effect_ratio": 30 },
+            { "id": 6, "name": "\u751f\u7269\u5316\u5b66\u5bb6", "details": "\u5bf9\u836f\u7269\u6709\u4e13\u4e1a\u7684\u7814\u7a76", "effect_ratio": 30 },
+            { "id": 7, "name": "\u54f2\u5b66\u5bb6", "details": "\u667a\u5546\u975e\u5e38\u9ad8\u7684\u4eba", "effect_ratio": 30 },
+            { "id": 8, "name": "\u8bd7\u4eba", "details": "\u5728\u6587\u5b66\u4e0a\u6709\u975e\u5e38\u9ad8\u7684\u9020\u8be3", "effect_ratio": 30 },
+            { "id": 9, "name": "\u7535\u5b50\u5de5\u7a0b\u5e08", "details": "\u4ece\u4e8b\u5404\u7c7b\u7535\u5b50\u8bbe\u5907\u548c\u4fe1\u606f\u7cfb\u7edf\u7814\u7a76\u3001\u8bbe\u8ba1\u3001\u751f\u4ea7", "effect_ratio": 30 },
+            { "id": 10, "name": "\u6c7d\u8f66\u5de5\u7a0b\u5e08", "details": "\u6c7d\u8f66\u6574\u8f66\u8bbe\u8ba1\u3001\u6c7d\u8f66\u96f6\u4ef6\u8bbe\u8ba1", "effect_ratio": 30 },
+            { "id": 11, "name": "\u7ea2\u9152\u917f\u9152\u5e08", "details": "\u80fd\u8bc6\u522b\u76f8\u5173\u6750\u6599\uff0c\u4f7f\u7528\u6750\u6599\u917f\u9020\u7ea2\u9152", "effect_ratio": 30 },
+            { "id": 12, "name": "\u97f3\u4e50\u5bb6", "details": "\u521b\u4f5c\u97f3\u4e50\u548c\u6f14\u594f\u97f3\u4e50", "effect_ratio": 30 },
+            { "id": 13, "name": "\u5f8b\u5e08", "details": "\u901a\u8fc7\u56fd\u5bb6\u53f8\u6cd5\u8003\u8bd5\u5e76\u4f9d\u6cd5\u53d6\u5f97\u5f8b\u5e08\u6267\u4e1a\u8bc1\u4e66", "effect_ratio": 30 },
+            { "id": 14, "name": "\u8b66\u5bdf", "details": "\u5177\u6709\u5211\u4fa6\u6280\u80fd\u7684\u8b66\u5bdf", "effect_ratio": 30 },
+            { "id": 15, "name": "\u516c\u52a1\u5458", "details": "\u6c11\u653f\u90e8\u95e8\u516c\u52a1\u5458\uff0c\u719f\u6089\u6c11\u653f\u4e8b\u52a1", "effect_ratio": 30 },
+            { "id": 16, "name": "\u6740\u4eba\u72af", "details": "\u56e0\u8bef\u6740\u88ab\u5224\u5211", "effect_ratio": 30 },
+            { "id": 17, "name": "\u5c0f\u5077", "details": "\u56e0\u5077\u76d7\u8d22\u52a1\u88ab\u5224\u5211", "effect_ratio": 30 },
+            { "id": 18, "name": "\u6728\u5320", "details": "\u5236\u9020\u5bb6\u5177\u96f6\u4ef6\u3001\u95e8\u7a97\u6846\u67b6\uff0c\u548c\u7b80\u5355\u5de5\u5177", "effect_ratio": 30 },
+            { "id": 19, "name": "\u5730\u4ea7\u4e2d\u4ecb", "details": "\u623f\u5730\u4ea7\u4e1a\u7684\u670d\u52a1\u4eba\u5458", "effect_ratio": 30 },
+            { "id": 20, "name": "\u6b4c\u5267\u6f14\u5531\u5bb6", "details": "\u6b4c\u5267\u6f14\u5458,\u8868\u6f14\u827a\u672f\u5bb6", "effect_ratio": 30 },
+            { "id": 21, "name": "\u5b87\u822a\u5458", "details": "\u5065\u5eb7\u7684\u4f53\u683c\u3001\u826f\u597d\u7684\u5fc3\u7406\u7d20\u8d28\uff0c\u6297\u538b\u80fd\u529b\u5f3a\uff0c\u5177\u5907\u6e0a\u535a\u7684\u77e5\u8bc6", "effect_ratio": 30 },
+            { "id": 22, "name": "\u5316\u5b66\u535a\u58eb", "details": "\u719f\u6089\u5404\u7c7b\u5316\u5b66\u77e5\u8bc6", "effect_ratio": 30 },
+            { "id": 23, "name": "\u5ba2\u623f\u670d\u52a1\u751f", "details": "\u975e\u5e38\u666e\u901a\u7684\u804c\u4e1a", "effect_ratio": 30 },
+            { "id": 24, "name": "\u65f6\u88c5\u8bbe\u8ba1\u5e08", "details": "\u65f6\u88c5\u8bbe\u8ba1", "effect_ratio": 30 },
+            { "id": 25, "name": "\u5fc3\u7406\u533b\u751f", "details": "\u5bf9\u707e\u96be\uff0c\u6218\u4e89\u4e4b\u540e\u975e\u5e38\u6709\u5e2e\u52a9", "effect_ratio": 30 },
+            { "id": 26, "name": "\u58eb\u5175", "details": "\u8eab\u4f53\u975e\u5e38\u5f3a\u58ee", "effect_ratio": 30 },
+            { "id": 27, "name": "\u52a8\u7269\u5b66\u5bb6", "details": "\u5bf9\u52a8\u7269\u975e\u5e38\u4e86\u89e3", "effect_ratio": 30 },
+            { "id": 28, "name": "\u62a4\u58eb", "details": "\u52a9\u4ea7\u58eb", "effect_ratio": 30 },
+            { "id": 29, "name": "\u7269\u7406\u5b66\u5bb6", "details": "\u5bf9\u7269\u7406\u7406\u8bba\u975e\u5e38\u719f\u6089", "effect_ratio": 30 },
+            { "id": 30, "name": "\u5bb6\u5ead\u4e3b\u5987", "details": "\u4e00\u822c\u804c\u4e1a", "effect_ratio": 30 },
+            { "id": 31, "name": "\u5e73\u9762\u8bbe\u8ba1\u5e08", "details": "\u8bbe\u8ba1\u5e08", "effect_ratio": 32 },
+            { "id": 32, "name": "\u753b\u5bb6", "details": "\u6cb9\u753b\u5bb6", "effect_ratio": 32 }
+        ]
+    }
+}

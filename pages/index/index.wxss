@@ -1,0 +1,51 @@
+/**index.wxss**/
+
+.container {
+    width: 100%;
+}
+
+.userinfo {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #eee;
+    width: 100%;
+    z-index: 100;
+}
+
+.userinfo-avatar {
+    width: 64rpx;
+    height: 64rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.button {
+    width: 100px;
+}
+
+.info {
+    width: 90%;
+}
+
+.info .name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px 0 5px 0;
+}
+
+.info .details {
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    padding: 5px 0;
+    line-height: 23px;
+}
